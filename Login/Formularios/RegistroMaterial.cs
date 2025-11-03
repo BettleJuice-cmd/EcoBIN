@@ -1,0 +1,44 @@
+﻿using System;
+using System.Collections.Generic;
+using System.ComponentModel;
+using System.Data;
+using System.Drawing;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+using System.Windows.Forms;
+
+namespace Login.Formularios
+{
+    public partial class RegistroMaterial : Form
+    {
+        public RegistroMaterial()
+        {
+            InitializeComponent();
+            lblGuardado.Text = null;
+            this.ControlBox = false;
+        }
+
+        private void salirToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            this.Close();
+            new MenuOpc().Show();
+        }
+
+        private void RegistroMaterial_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label3_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btnGuardar_Click(object sender, EventArgs e)
+        {
+            lblGuardado.Text = "LOS ELEMENTOS SE GUARDARON CORRECTAMENTE";
+
+        }
+    }
+}
