@@ -65,5 +65,11 @@ namespace Login.Formularios
         {
 
         }
+
+        private void rankingDeVisualizacionToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            new Ranking().Show();
+        }
     }
 }

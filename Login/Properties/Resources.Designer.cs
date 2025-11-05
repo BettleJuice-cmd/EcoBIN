@@ -73,6 +73,26 @@ namespace Login.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap pngwing_com__10_ {
+            get {
+                object obj = ResourceManager.GetObject("pngwing.com (10)", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap pngwing_com__11_ {
+            get {
+                object obj = ResourceManager.GetObject("pngwing.com (11)", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap pngwing_com__4_ {
             get {
                 object obj = ResourceManager.GetObject("pngwing.com (4)", resourceCulture);
@@ -96,6 +116,16 @@ namespace Login.Properties {
         internal static System.Drawing.Bitmap pngwing_com__8_ {
             get {
                 object obj = ResourceManager.GetObject("pngwing.com (8)", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap pngwing_com__9_ {
+            get {
+                object obj = ResourceManager.GetObject("pngwing.com (9)", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

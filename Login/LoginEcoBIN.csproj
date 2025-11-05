@@ -46,11 +46,11 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Formularios\ConsultaPuntos.cs">
+    <Compile Include="Formularios\Ranking.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Formularios\ConsultaPuntos.Designer.cs">
-      <DependentUpon>ConsultaPuntos.cs</DependentUpon>
+    <Compile Include="Formularios\Ranking.Designer.cs">
+      <DependentUpon>Ranking.cs</DependentUpon>
     </Compile>
     <Compile Include="Login.cs">
       <SubType>Form</SubType>
@@ -70,10 +70,14 @@
     <Compile Include="Formularios\RegistroMaterial.Designer.cs">
       <DependentUpon>RegistroMaterial.cs</DependentUpon>
     </Compile>
+    <Compile Include="Modelos\Registro.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="Formularios\ConsultaPuntos.resx">
       <DependentUpon>ConsultaPuntos.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formularios\Ranking.resx">
+      <DependentUpon>Ranking.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Login.resx">
       <DependentUpon>Login.cs</DependentUpon>
@@ -119,11 +123,18 @@
   <ItemGroup>
     <None Include="Resources\pngwing.com %284%29.png" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="Modelos\" />
-  </ItemGroup>
+  <ItemGroup />
   <ItemGroup>
     <None Include="Resources\RECICLAJE.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pngwing.com %289%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pngwing.com %2810%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pngwing.com %2811%29.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
