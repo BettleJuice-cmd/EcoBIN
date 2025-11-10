@@ -55,11 +55,7 @@ namespace Login.Formularios
 
         }
 
-        private void consultaDePuntosIndividualesToolStripMenuItem_Click(object sender, EventArgs e)
-        {
-            this.Hide();
-            new ConsultaPuntos().Show();
-        }
+       
 
         private void MenuOpc_Load(object sender, EventArgs e)
         {

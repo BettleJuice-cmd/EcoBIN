@@ -73,9 +73,6 @@
     <Compile Include="Modelos\Registro.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="Formularios\ConsultaPuntos.resx">
-      <DependentUpon>ConsultaPuntos.cs</DependentUpon>
-    </EmbeddedResource>
     <EmbeddedResource Include="Formularios\Ranking.resx">
       <DependentUpon>Ranking.cs</DependentUpon>
     </EmbeddedResource>

@@ -72,10 +72,7 @@
             // 
             // consultaDePuntosIndividualesToolStripMenuItem
             // 
-            this.consultaDePuntosIndividualesToolStripMenuItem.Name = "consultaDePuntosIndividualesToolStripMenuItem";
-            this.consultaDePuntosIndividualesToolStripMenuItem.Size = new System.Drawing.Size(302, 26);
-            this.consultaDePuntosIndividualesToolStripMenuItem.Text = "Consulta de puntos individuales";
-            this.consultaDePuntosIndividualesToolStripMenuItem.Click += new System.EventHandler(this.consultaDePuntosIndividualesToolStripMenuItem_Click);
+            
             // 
             // rankingDeVisualizacionToolStripMenuItem
             // 

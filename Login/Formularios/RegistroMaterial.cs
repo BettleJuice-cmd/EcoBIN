@@ -48,7 +48,9 @@ namespace Login.Formularios
         {
             Registro material = new Registro();
             material.Tipo = comboBox1.Text;
-            if (material.Tipo = comboBox1.SelectedItem.)
+            
+
+            
             int.TryParse(tbCantidad.Text, out int cantidad);
             material.Cantidad = cantidad;
             listaMateriales.Add(material);
